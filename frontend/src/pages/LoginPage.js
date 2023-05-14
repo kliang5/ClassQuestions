@@ -55,6 +55,7 @@ const LoginPage = props => {
           <label className="label" htmlFor="password">
             Password
           </label>
+          <input name ="password" className = "input" />
           <div>Anonymous access while in prototype mode</div>
           <div><input type ="submit" className = "button is-primary"/></div>
         </form>
